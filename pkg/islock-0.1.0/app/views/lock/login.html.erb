@@ -1,0 +1,7 @@
+<div class="lock-login" id="lock-login-form">
+  <p>What's the secret ingedient?</p>
+  <%= form_tag unlock_url do %>
+    <%=password_field_tag "password" %>
+    <%=submit_tag "Go"%>
+  <% end %>
+</div>

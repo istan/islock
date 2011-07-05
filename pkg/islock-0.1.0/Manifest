@@ -1,0 +1,13 @@
+README.rdoc
+Rakefile
+app/controllers/lock_application_controller.rb
+app/controllers/lock_controller.rb
+app/views/lock/login.html.erb
+app/views/lock/refused.html.erb
+app/views/lock/unlock.html.erb
+config/routes.rb
+lib/generators/lock/create_password_file/USAGE
+lib/generators/lock/create_password_file/create_password_file_generator.rb
+lib/lock.rb
+lib/lock/engine.rb
+Manifest
